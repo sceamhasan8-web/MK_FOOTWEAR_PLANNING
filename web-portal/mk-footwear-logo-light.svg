@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 110" width="100%" height="100%">
+  <defs>
+    <linearGradient id="lightMkPrimary" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#153B66"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+    <linearGradient id="lightMkBlue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="lightSole" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="60%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Monogram Mark -->
+  <g transform="translate(6, 6)">
+    <!-- M Letterform -->
+    <path d="M 8 82 L 8 18 L 22 18 L 38 48 L 54 18 L 68 18 L 68 82 L 55 82 L 55 42 L 42 66 L 34 66 L 21 42 L 21 82 Z" fill="url(#lightMkPrimary)"/>
+    
+    <!-- K Stem -->
+    <path d="M 62 18 L 75 18 L 75 82 L 62 82 Z" fill="#153B66"/>
+    
+    <!-- K Upper Arm -->
+    <path d="M 72 46 L 90 18 L 104 18 L 83 49 Z" fill="url(#lightMkBlue)"/>
+
+    <!-- K Lower Arm & Footwear Contour -->
+    <path d="M 73 45 L 86 64 C 90 62 96 60 102 62 C 105 63 107 66 105 69 C 101 74 91 75 80 76 C 75 76 70 77 64 80 L 61 80 L 69 62 L 73 45 Z" fill="url(#lightMkBlue)"/>
+    
+    <!-- Sole & Motion Cushion Arc -->
+    <path d="M 42 84 C 56 84 70 82 82 79 C 92 76 100 73 102 69 C 100 71 90 74 80 76 C 67 78 54 79 42 79 Z" fill="url(#lightSole)"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(130, 20)">
+    <text x="0" y="38" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="800" letter-spacing="-0.5" fill="#153B66">
+      MK <tspan fill="#2563EB" font-weight="700">FOOTWEAR</tspan>
+    </text>
+    <text x="0" y="65" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="19" font-weight="600" letter-spacing="1.2" fill="#334155">
+      PLANNING
+    </text>
+    <text x="0" y="84" font-family="'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10.5" font-weight="600" letter-spacing="2.2" fill="#64748B">
+      PLAN <tspan fill="#2563EB" font-weight="700">•</tspan> PRODUCE <tspan fill="#2563EB" font-weight="700">•</tspan> DELIVER
+    </text>
+  </g>
+</svg>

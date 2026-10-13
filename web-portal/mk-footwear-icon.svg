@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="100%" height="100%">
+  <defs>
+    <linearGradient id="iconBgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+    <linearGradient id="iconPrimaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#153B66"/>
+      <stop offset="100%" stop-color="#1E40AF"/>
+    </linearGradient>
+    <linearGradient id="iconBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#0284C7"/>
+    </linearGradient>
+    <linearGradient id="iconSoleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="60%" stop-color="#38BDF8"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+    <filter id="iconShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <!-- Container Box -->
+  <rect x="4" y="4" width="120" height="120" rx="28" fill="url(#iconBgGrad)" stroke="#CBD5E1" stroke-width="1.5" filter="url(#iconShadow)"/>
+  
+  <g transform="translate(10, 10)">
+    <!-- M Letterform -->
+    <path d="M 14 88 L 14 26 L 29 26 L 45 58 L 61 26 L 76 26 L 76 88 L 62 88 L 62 49 L 49 75 L 41 75 L 28 49 L 28 88 Z" fill="url(#iconPrimaryGrad)"/>
+    
+    <!-- K Stem -->
+    <path d="M 70 26 L 83 26 L 83 88 L 70 88 Z" fill="#153B66"/>
+    
+    <!-- K Upper Diagonal Arm -->
+    <path d="M 80 54 L 99 26 L 113 26 L 91 58 Z" fill="url(#iconBlueGrad)"/>
+
+    <!-- K Lower Arm & Sleek Footwear Silhouette -->
+    <path d="M 80 53 L 94 71 C 98 69 104 67 110 69 C 113 70 115 73 113 76 C 109 81 99 82 88 83 C 83 83 78 84 72 87 L 69 87 L 77 69 L 80 53 Z" fill="url(#iconBlueGrad)"/>
+    
+    <!-- Sole & Motion Cushion Arc -->
+    <path d="M 50 90 C 64 90 78 88 90 85 C 100 82 108 79 110 75 C 108 77 98 80 88 82 C 75 84 62 85 50 85 Z" fill="url(#iconSoleGrad)"/>
+
+    <!-- Micro Planning Nodes -->
+    <circle cx="102" cy="35" r="3" fill="#38BDF8"/>
+    <circle cx="110" cy="43" r="2.2" fill="#60A5FA"/>
+  </g>
+</svg>

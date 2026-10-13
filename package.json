@@ -1,0 +1,19 @@
+{
+  "name": "footwear-erp-planning",
+  "version": "1.0.0",
+  "description": "Footwear Manufacturing Production Planning ERP",
+  "scripts": {
+    "dev": "python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload --app-dir backend",
+    "start": "python -m uvicorn app.main:app --host 127.0.0.1 --port 8000 --app-dir backend",
+    "seed": "python -m app.seed.demo_data",
+    "test": "pytest backend"
+  },
+  "keywords": [
+    "erp",
+    "manufacturing",
+    "footwear",
+    "production-planning"
+  ],
+  "author": "",
+  "license": "ISC"
+}
